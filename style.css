@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #535353;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+main {
+  width: 100%;
+  max-width: 820px;
+  padding: 12px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 2px solid #535353;
+  border-radius: 6px;
+  image-rendering: pixelated;
+}
+
+.help {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
